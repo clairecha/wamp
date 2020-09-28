@@ -5,7 +5,7 @@ Vue.use(Vuex);
 
 const store = new Vuex.Store({
   state: {
-    token: null,
+    tokens: null,
   },
   mutations: {
     ADD_TOKEN: (state, token) => {
